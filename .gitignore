@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated research artifacts
+results/figures/*
+results/tables/*
+results/raw_outputs/*
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+!results/raw_outputs/.gitkeep
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
