@@ -1,0 +1,2359 @@
+{
+  "entries": [
+    {
+      "case_id": "0",
+      "correct_diagnosis": "Myasthenia gravis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c3c687436749d40d"
+    },
+    {
+      "case_id": "1",
+      "correct_diagnosis": "Progressive multifocal encephalopathy (PML)",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "deb7aaf9f156c931"
+    },
+    {
+      "case_id": "2",
+      "correct_diagnosis": "Hirschsprung disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "5a29b13b3705f057"
+    },
+    {
+      "case_id": "3",
+      "correct_diagnosis": "Diffuse large B-cell lymphoma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9103e3aa31e1e255"
+    },
+    {
+      "case_id": "4",
+      "correct_diagnosis": "Acute interstitial nephritis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c8704806ae7911d8"
+    },
+    {
+      "case_id": "5",
+      "correct_diagnosis": "Pes anserine bursitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "955e08c3244961d2"
+    },
+    {
+      "case_id": "6",
+      "correct_diagnosis": "Situational syncope",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "fe95692881cda56b"
+    },
+    {
+      "case_id": "7",
+      "correct_diagnosis": "Congenital Rubella Infection",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "19de7b394af07754"
+    },
+    {
+      "case_id": "8",
+      "correct_diagnosis": "Phyllodes tumor",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "12aa2219de62e7ea"
+    },
+    {
+      "case_id": "9",
+      "correct_diagnosis": "Endometritis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "ce0a652e488cc623"
+    },
+    {
+      "case_id": "10",
+      "correct_diagnosis": "Hemorrhoids",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "391b4b17e1b0326c"
+    },
+    {
+      "case_id": "11",
+      "correct_diagnosis": "Complex partial seizure",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "29619870e751598d"
+    },
+    {
+      "case_id": "12",
+      "correct_diagnosis": "Posterior hip dislocation",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "1de455519762cc40"
+    },
+    {
+      "case_id": "13",
+      "correct_diagnosis": "Hirschsprung’s disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "6d15ff6e37aa61ed"
+    },
+    {
+      "case_id": "14",
+      "correct_diagnosis": "Rupture of the flexor digitorum profundus tendon at its point of insertion",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "40ea1430950b2347"
+    },
+    {
+      "case_id": "15",
+      "correct_diagnosis": "Epidermoid cyst",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "0dbb0037f897aaf6"
+    },
+    {
+      "case_id": "16",
+      "correct_diagnosis": "C. difficile colitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c03f2eb0b4b572a1"
+    },
+    {
+      "case_id": "17",
+      "correct_diagnosis": "Pyoderma gangrenosum",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "f59b92516f1834ce"
+    },
+    {
+      "case_id": "18",
+      "correct_diagnosis": "Uterine rupture",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "f58532ce438d5193"
+    },
+    {
+      "case_id": "19",
+      "correct_diagnosis": "Disc herniation",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "47ea98ef1b9b33ae"
+    },
+    {
+      "case_id": "20",
+      "correct_diagnosis": "Cytomegalovirus retinitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "1ab641e7748c4335"
+    },
+    {
+      "case_id": "21",
+      "correct_diagnosis": "Reactive Arthritis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "ce18c8087b8554a3"
+    },
+    {
+      "case_id": "22",
+      "correct_diagnosis": "Malignant melanoma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "f06247fe9b9b9926"
+    },
+    {
+      "case_id": "23",
+      "correct_diagnosis": "Irritable Bowel Syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "4a924f87e4b86dad"
+    },
+    {
+      "case_id": "24",
+      "correct_diagnosis": "Meigs syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "5bbe4ddbd3bca6e5"
+    },
+    {
+      "case_id": "25",
+      "correct_diagnosis": "Primary sclerosing cholangitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9c3777b4aed37aca"
+    },
+    {
+      "case_id": "26",
+      "correct_diagnosis": "Interstitial cystitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "58e021c8c21095d8"
+    },
+    {
+      "case_id": "27",
+      "correct_diagnosis": "Adhesive capsulitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "2be6dd9aa7355152"
+    },
+    {
+      "case_id": "28",
+      "correct_diagnosis": "Lung cancer",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "572e36430e3eae00"
+    },
+    {
+      "case_id": "29",
+      "correct_diagnosis": "Disseminated Gonococcal Infection",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "5a58840bff0a3656"
+    },
+    {
+      "case_id": "30",
+      "correct_diagnosis": "Respiratory Distress Syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "5df907862a277470"
+    },
+    {
+      "case_id": "31",
+      "correct_diagnosis": "Chronic lymphocytic leukemia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "cbcea159fa63e23c"
+    },
+    {
+      "case_id": "32",
+      "correct_diagnosis": "Fulminant hepatic failure",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "5c065bc6e9ee3d46"
+    },
+    {
+      "case_id": "33",
+      "correct_diagnosis": "Coarctation of the aorta",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "33a98998cf7853d8"
+    },
+    {
+      "case_id": "34",
+      "correct_diagnosis": "Erythema Infectiosum",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "ebdee5ec81b872f9"
+    },
+    {
+      "case_id": "35",
+      "correct_diagnosis": "Glanzmann’s Thrombasthenia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "89215ed45e597eb5"
+    },
+    {
+      "case_id": "36",
+      "correct_diagnosis": "Osteoclastoma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "96b907b6b986072b"
+    },
+    {
+      "case_id": "37",
+      "correct_diagnosis": "Multiple system atrophy",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "b751cbf3cc4b4935"
+    },
+    {
+      "case_id": "38",
+      "correct_diagnosis": "Duodenal atresia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "24a61dcd8bf53e53"
+    },
+    {
+      "case_id": "39",
+      "correct_diagnosis": "Essential thrombocythemia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "82df7f6f7aeba8df"
+    },
+    {
+      "case_id": "40",
+      "correct_diagnosis": "Medullary Sponge Kidney",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "3aa35b675973837a"
+    },
+    {
+      "case_id": "41",
+      "correct_diagnosis": "Genitopelvic pain disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "adb4e4e4bde31eee"
+    },
+    {
+      "case_id": "42",
+      "correct_diagnosis": "Active chronic hepatitis B infection",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "ae8e941e842c6c90"
+    },
+    {
+      "case_id": "43",
+      "correct_diagnosis": "Acute Mesenteric Ischemia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "69e4851f125a98f5"
+    },
+    {
+      "case_id": "44",
+      "correct_diagnosis": "Asthma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "e52059ff60960ab4"
+    },
+    {
+      "case_id": "45",
+      "correct_diagnosis": "Roseola infantum",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "3822f254b5c44907"
+    },
+    {
+      "case_id": "46",
+      "correct_diagnosis": "Eczematous dermatitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "09ec893294d518c2"
+    },
+    {
+      "case_id": "47",
+      "correct_diagnosis": "Osteoarthritis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "e022adb4737c8023"
+    },
+    {
+      "case_id": "48",
+      "correct_diagnosis": "Hemophilia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "adccd8d8ef5d55eb"
+    },
+    {
+      "case_id": "49",
+      "correct_diagnosis": "Steven-Johnson syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "a506ef43aed91d47"
+    },
+    {
+      "case_id": "50",
+      "correct_diagnosis": "Aromatase deficiency",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "fb42da36317244c1"
+    },
+    {
+      "case_id": "51",
+      "correct_diagnosis": "Atrial Septal Defect",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "a5a037897b29cdc3"
+    },
+    {
+      "case_id": "52",
+      "correct_diagnosis": "Pancreatic adenocarcinoma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "e72fd1ea7409e404"
+    },
+    {
+      "case_id": "53",
+      "correct_diagnosis": "Benign Paroxysmal Positional Vertigo (BPPV)",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "f2b9b0d646677576"
+    },
+    {
+      "case_id": "54",
+      "correct_diagnosis": "Schizotypal personality disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "6fd217e496aca837"
+    },
+    {
+      "case_id": "55",
+      "correct_diagnosis": "Bowen's Disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "4cb663d3e092c3e5"
+    },
+    {
+      "case_id": "56",
+      "correct_diagnosis": "Oppositional Defiant Disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "07e755aa0475ff15"
+    },
+    {
+      "case_id": "57",
+      "correct_diagnosis": "Pancreatic adenocarcinoma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "11e0fa21a27fa073"
+    },
+    {
+      "case_id": "58",
+      "correct_diagnosis": "Lisdexamfetamine intoxication",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "1296ab81d632b7de"
+    },
+    {
+      "case_id": "59",
+      "correct_diagnosis": "Pelvic inflammatory disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "aa5ccfa8802b686a"
+    },
+    {
+      "case_id": "60",
+      "correct_diagnosis": "Glossopharyngeal Neuralgia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "041acd5471715a51"
+    },
+    {
+      "case_id": "61",
+      "correct_diagnosis": "Double aortic arch",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c284bf59053dc5b7"
+    },
+    {
+      "case_id": "62",
+      "correct_diagnosis": "Molluscum contagiosum",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c815bb2da5481b69"
+    },
+    {
+      "case_id": "63",
+      "correct_diagnosis": "Schizoaffective disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "fd2fa4b32dc70110"
+    },
+    {
+      "case_id": "64",
+      "correct_diagnosis": "Bed bug bite",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "7f413975bea88c7b"
+    },
+    {
+      "case_id": "65",
+      "correct_diagnosis": "Membranous nephropathy",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c5ff3d1e94508706"
+    },
+    {
+      "case_id": "66",
+      "correct_diagnosis": "Impaired erythropoietin production",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "42f8ac0ee657bfef"
+    },
+    {
+      "case_id": "67",
+      "correct_diagnosis": "Acute lymphoblastic leukemia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "a74a8fef5ee52d23"
+    },
+    {
+      "case_id": "68",
+      "correct_diagnosis": "De Quervain tenosynovitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "b5426da4f59d0d38"
+    },
+    {
+      "case_id": "69",
+      "correct_diagnosis": "Dumping Syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c24f3f6ad95b3857"
+    },
+    {
+      "case_id": "70",
+      "correct_diagnosis": "Seborrheic dermatitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "8dc59e84c2146f2c"
+    },
+    {
+      "case_id": "71",
+      "correct_diagnosis": "Labyrinthitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "a91c0fbcfb59896f"
+    },
+    {
+      "case_id": "72",
+      "correct_diagnosis": "Physiological neonatal jaundice",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "2878cf2d8e740431"
+    },
+    {
+      "case_id": "73",
+      "correct_diagnosis": "Frontotemporal Dementia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "8e29e37ac18740a8"
+    },
+    {
+      "case_id": "74",
+      "correct_diagnosis": "Granulosa cell tumor",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "925fb0b383bfa216"
+    },
+    {
+      "case_id": "75",
+      "correct_diagnosis": "Intraventricular Hemorrhage",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "0812ae258f900060"
+    },
+    {
+      "case_id": "76",
+      "correct_diagnosis": "Syringomyelia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "96608233545d4c70"
+    },
+    {
+      "case_id": "77",
+      "correct_diagnosis": "Pneumonia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "8ca0d931a3ec1373"
+    },
+    {
+      "case_id": "78",
+      "correct_diagnosis": "Benign paroxysmal positional vertigo",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "125da2b8a91c6120"
+    },
+    {
+      "case_id": "79",
+      "correct_diagnosis": "Listeriosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "3dbddaa9c511a24c"
+    },
+    {
+      "case_id": "80",
+      "correct_diagnosis": "Hemophilia A",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "980d9410bba0fa28"
+    },
+    {
+      "case_id": "81",
+      "correct_diagnosis": "Huntington disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "689d8a72e0099ea4"
+    },
+    {
+      "case_id": "82",
+      "correct_diagnosis": "Breast milk jaundice",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "600d3ae2004bdc31"
+    },
+    {
+      "case_id": "83",
+      "correct_diagnosis": "Neuroleptic malignant syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "99922423508670a2"
+    },
+    {
+      "case_id": "84",
+      "correct_diagnosis": "Nightmare disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "6bbc315f77999e22"
+    },
+    {
+      "case_id": "85",
+      "correct_diagnosis": "Leprosy",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9d2635984f4794e3"
+    },
+    {
+      "case_id": "86",
+      "correct_diagnosis": "Actinic Keratosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "403d3714f8531d03"
+    },
+    {
+      "case_id": "87",
+      "correct_diagnosis": "Chronic lymphocytic leukemia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "113bb6ba9d3c30d7"
+    },
+    {
+      "case_id": "88",
+      "correct_diagnosis": "Normal behavior",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "0dc192e4341347ae"
+    },
+    {
+      "case_id": "89",
+      "correct_diagnosis": "Parkinson disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "265b87f7ee58d177"
+    },
+    {
+      "case_id": "90",
+      "correct_diagnosis": "Waldenstrom macroglobulinemia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "b32b4c00d469ebf5"
+    },
+    {
+      "case_id": "91",
+      "correct_diagnosis": "Apical lung tumor",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "6c1dfbdf6f25dc12"
+    },
+    {
+      "case_id": "92",
+      "correct_diagnosis": "Tuberculosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "e90fb4cd6aa605f4"
+    },
+    {
+      "case_id": "93",
+      "correct_diagnosis": "Boerhaave syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c899544b81d0da36"
+    },
+    {
+      "case_id": "94",
+      "correct_diagnosis": "Chronic Venous Insufficiency",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9c71582771530880"
+    },
+    {
+      "case_id": "95",
+      "correct_diagnosis": "Akathisia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "0e9ffe7581f73063"
+    },
+    {
+      "case_id": "96",
+      "correct_diagnosis": "Neonatal Respiratory Distress Syndrome (NRDS)",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9f305415b8b2b33a"
+    },
+    {
+      "case_id": "97",
+      "correct_diagnosis": "Pemphigus vulgaris",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "d072a6f1c77437cd"
+    },
+    {
+      "case_id": "98",
+      "correct_diagnosis": "Progressive multifocal leukoencephalopathy",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "3b96d1640c70fc64"
+    },
+    {
+      "case_id": "99",
+      "correct_diagnosis": "Acute myelogenous leukemia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "cbae671e31695c94"
+    },
+    {
+      "case_id": "100",
+      "correct_diagnosis": "Schizophreniform Disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "dd075e1f78d3a72b"
+    },
+    {
+      "case_id": "101",
+      "correct_diagnosis": "Testicular torsion",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9f33a3419e9f2f80"
+    },
+    {
+      "case_id": "102",
+      "correct_diagnosis": "Serum sickness-like reaction",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "98517cb3a4704ed8"
+    },
+    {
+      "case_id": "103",
+      "correct_diagnosis": "Legg-Calvé-Perthes disease (LCPD)",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "517e04311963ecbd"
+    },
+    {
+      "case_id": "104",
+      "correct_diagnosis": "Bronchiectasis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "220795e995d0dcb6"
+    },
+    {
+      "case_id": "105",
+      "correct_diagnosis": "Erythema Toxicum",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "25118732e0d954e0"
+    },
+    {
+      "case_id": "106",
+      "correct_diagnosis": "Myasthenia gravis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "27892e9435ce617b"
+    },
+    {
+      "case_id": "107",
+      "correct_diagnosis": "Seborrheic keratosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "301d89f08aa12a72"
+    },
+    {
+      "case_id": "108",
+      "correct_diagnosis": "Silicosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "d5965cb7be7cd7e5"
+    },
+    {
+      "case_id": "109",
+      "correct_diagnosis": "Chronic obstructive pulmonary disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c1cb30808f047595"
+    },
+    {
+      "case_id": "110",
+      "correct_diagnosis": "Central retinal artery occlusion",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "5c14faa6865bcd57"
+    },
+    {
+      "case_id": "111",
+      "correct_diagnosis": "Vasovagal syncope",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "7fd9012fd8d4dbbe"
+    },
+    {
+      "case_id": "112",
+      "correct_diagnosis": "Lichen Sclerosus",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "a90374f33117ee9e"
+    },
+    {
+      "case_id": "113",
+      "correct_diagnosis": "Bacillus cereus infection",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "19ab22b9c43fafbc"
+    },
+    {
+      "case_id": "114",
+      "correct_diagnosis": "Chronic Granulomatous Disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c0245decef641520"
+    },
+    {
+      "case_id": "115",
+      "correct_diagnosis": "Somatization disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "a26c8a643f488b48"
+    },
+    {
+      "case_id": "116",
+      "correct_diagnosis": "Chronic obstructive pulmonary disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "bcad76a3b606b12b"
+    },
+    {
+      "case_id": "117",
+      "correct_diagnosis": "Schizophrenia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "dc29748f093235cc"
+    },
+    {
+      "case_id": "118",
+      "correct_diagnosis": "Tetralogy of Fallot",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "3a662983bb4f53ed"
+    },
+    {
+      "case_id": "119",
+      "correct_diagnosis": "Thrombotic Thrombocytopenic Purpura",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "e22bd95c67133d2e"
+    },
+    {
+      "case_id": "120",
+      "correct_diagnosis": "Acalculous cholecystitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "a1e9f9843f4db966"
+    },
+    {
+      "case_id": "121",
+      "correct_diagnosis": "Vitiligo",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c078f8e8fe2153be"
+    },
+    {
+      "case_id": "122",
+      "correct_diagnosis": "Pseudomonas keratitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "240ecfced07fe0a0"
+    },
+    {
+      "case_id": "123",
+      "correct_diagnosis": "MEN1",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "67884d0e84b7703b"
+    },
+    {
+      "case_id": "124",
+      "correct_diagnosis": "Psoriatic arthritis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "0821e0e7072f90db"
+    },
+    {
+      "case_id": "125",
+      "correct_diagnosis": "Ichthyosis Vulgaris",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9d2a0ca8d3f53eb4"
+    },
+    {
+      "case_id": "126",
+      "correct_diagnosis": "Fibroadenoma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "8b5a522903532f4f"
+    },
+    {
+      "case_id": "127",
+      "correct_diagnosis": "Silent Thyroiditis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "21acf0fdb6ec216a"
+    },
+    {
+      "case_id": "128",
+      "correct_diagnosis": "Chickenpox",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "aaa8484d8045d2de"
+    },
+    {
+      "case_id": "129",
+      "correct_diagnosis": "Biliary atresia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "10a95d21f63399ea"
+    },
+    {
+      "case_id": "130",
+      "correct_diagnosis": "Major depressive disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "377d70e2cdd98420"
+    },
+    {
+      "case_id": "131",
+      "correct_diagnosis": "Adenomatous polyp",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "41fbc322dffeee8c"
+    },
+    {
+      "case_id": "132",
+      "correct_diagnosis": "Polyostotic Fibrous Dysplasia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c3e3c4b77269a79b"
+    },
+    {
+      "case_id": "133",
+      "correct_diagnosis": "Femoropopliteal artery stenosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "a24804dfe3277d96"
+    },
+    {
+      "case_id": "134",
+      "correct_diagnosis": "Keratoacanthoma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "ca6cccd7c46bb49d"
+    },
+    {
+      "case_id": "135",
+      "correct_diagnosis": "Hair Tourniquet Syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "d4c6ddc6a7333c4a"
+    },
+    {
+      "case_id": "136",
+      "correct_diagnosis": "Takotsubo cardiomyopathy",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "29977bbce933c674"
+    },
+    {
+      "case_id": "137",
+      "correct_diagnosis": "Paroxysmal Atrial Fibrillation",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "8350789c1ff0669b"
+    },
+    {
+      "case_id": "138",
+      "correct_diagnosis": "Thoracic aortic rupture",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "d3091e9b275fef82"
+    },
+    {
+      "case_id": "139",
+      "correct_diagnosis": "Posttraumatic stress disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "1df409931f204ef3"
+    },
+    {
+      "case_id": "140",
+      "correct_diagnosis": "Bartter's syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "f5fc139dd19aaab5"
+    },
+    {
+      "case_id": "141",
+      "correct_diagnosis": "Schizoid Personality Disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "09074f7d2951ac15"
+    },
+    {
+      "case_id": "142",
+      "correct_diagnosis": "Adhesive capsulitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9ba0c3af81ba22af"
+    },
+    {
+      "case_id": "143",
+      "correct_diagnosis": "Advanced sleep phase disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "2b3478ccd91005df"
+    },
+    {
+      "case_id": "144",
+      "correct_diagnosis": "Exertional heat stroke",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "8b7e58a5c842ed0d"
+    },
+    {
+      "case_id": "145",
+      "correct_diagnosis": "Psoriatic arthritis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "f60280aa799704c0"
+    },
+    {
+      "case_id": "146",
+      "correct_diagnosis": "Chronic lymphocytic leukemia (CLL)",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "68229c4b02dc7ef6"
+    },
+    {
+      "case_id": "147",
+      "correct_diagnosis": "Autosomal dominant polycystic kidney disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "23d3c443fac8d559"
+    },
+    {
+      "case_id": "148",
+      "correct_diagnosis": "Molluscum contagiosum",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "1ed9da5973d622c5"
+    },
+    {
+      "case_id": "149",
+      "correct_diagnosis": "Brief Psychotic Disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "00906216f74530b2"
+    },
+    {
+      "case_id": "150",
+      "correct_diagnosis": "Phyllodes tumor",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9e92174e3044e3d9"
+    },
+    {
+      "case_id": "151",
+      "correct_diagnosis": "Valley fever",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "4ae20255ff7d2336"
+    },
+    {
+      "case_id": "152",
+      "correct_diagnosis": "Cardiac Contusion",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "6b3c4855ee70e353"
+    },
+    {
+      "case_id": "153",
+      "correct_diagnosis": "Varicella",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "cfd54affdf0e8d1d"
+    },
+    {
+      "case_id": "154",
+      "correct_diagnosis": "Squamous cell carcinoma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "031f827438bc5a11"
+    },
+    {
+      "case_id": "155",
+      "correct_diagnosis": "Pneumonia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "e5e1e2775c16bffb"
+    },
+    {
+      "case_id": "156",
+      "correct_diagnosis": "Cardiac contusion",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "8427d5b52f8d87f8"
+    },
+    {
+      "case_id": "157",
+      "correct_diagnosis": "Tracheobronchial rupture",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "e9326f1f5937ca36"
+    },
+    {
+      "case_id": "158",
+      "correct_diagnosis": "Chronic kidney failure",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "fd05388ebac0f336"
+    },
+    {
+      "case_id": "159",
+      "correct_diagnosis": "Hypertrophic Cardiomyopathy",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "d70c273c3f281953"
+    },
+    {
+      "case_id": "160",
+      "correct_diagnosis": "Lambert-Eaton syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "5340228ef72d687e"
+    },
+    {
+      "case_id": "161",
+      "correct_diagnosis": "Plummer-Vinson syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c1f09c78acfd1aab"
+    },
+    {
+      "case_id": "162",
+      "correct_diagnosis": "Dermatofibroma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "5bfcb89f77e0247d"
+    },
+    {
+      "case_id": "163",
+      "correct_diagnosis": "Factitious disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "58c83277e296db63"
+    },
+    {
+      "case_id": "164",
+      "correct_diagnosis": "Histoplasmosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c939db277cb6c629"
+    },
+    {
+      "case_id": "165",
+      "correct_diagnosis": "Aortic valve stenosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c42c009b733337ca"
+    },
+    {
+      "case_id": "166",
+      "correct_diagnosis": "Polymyositis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "5808257a88162adf"
+    },
+    {
+      "case_id": "167",
+      "correct_diagnosis": "Osteoarthritis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "95241f8d85c63479"
+    },
+    {
+      "case_id": "168",
+      "correct_diagnosis": "Minimal Change Disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "29a5957df2acdbe5"
+    },
+    {
+      "case_id": "169",
+      "correct_diagnosis": "Ewing sarcoma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "8826fcea61298d67"
+    },
+    {
+      "case_id": "170",
+      "correct_diagnosis": "Perforated gastric peptic ulcer",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "48acd7c1bdc2de96"
+    },
+    {
+      "case_id": "171",
+      "correct_diagnosis": "Pseudocyesis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "4508c05040a03fbf"
+    },
+    {
+      "case_id": "172",
+      "correct_diagnosis": "Temporomandibular joint dysfunction",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "4b3f682afdeb0c91"
+    },
+    {
+      "case_id": "173",
+      "correct_diagnosis": "Actinic Keratosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "37c5385625da2263"
+    },
+    {
+      "case_id": "174",
+      "correct_diagnosis": "Syringomyelia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "1c45fa11f3a63aea"
+    },
+    {
+      "case_id": "175",
+      "correct_diagnosis": "Gastric peptic ulcer",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "7f299760e2f641ea"
+    },
+    {
+      "case_id": "176",
+      "correct_diagnosis": "Hemolytic uremic syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "06ecc7b04e311da5"
+    },
+    {
+      "case_id": "177",
+      "correct_diagnosis": "Frontotemporal Dementia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "7a2ec23c054c0d8f"
+    },
+    {
+      "case_id": "178",
+      "correct_diagnosis": "Toxic exposure",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "452132149aa06c09"
+    },
+    {
+      "case_id": "179",
+      "correct_diagnosis": "Neuroleptic Malignant Syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "84e60e13e0d6fdf6"
+    },
+    {
+      "case_id": "180",
+      "correct_diagnosis": "Atrial Myxoma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "78035811f9330e6b"
+    },
+    {
+      "case_id": "181",
+      "correct_diagnosis": "Acute Hepatitis B",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "665c310b0a3f8946"
+    },
+    {
+      "case_id": "182",
+      "correct_diagnosis": "Spinal Stenosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "22476bdf475ad537"
+    },
+    {
+      "case_id": "183",
+      "correct_diagnosis": "Ruptured ovarian cyst",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "f285f16f5d2a8156"
+    },
+    {
+      "case_id": "184",
+      "correct_diagnosis": "Lichen Sclerosus",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "64d92e617e845c8d"
+    },
+    {
+      "case_id": "185",
+      "correct_diagnosis": "Chronic obstructive pulmonary disease (COPD)",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "11f990c51aca70a7"
+    },
+    {
+      "case_id": "186",
+      "correct_diagnosis": "Brief Psychotic Disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "d8d98e8ee27604d3"
+    },
+    {
+      "case_id": "187",
+      "correct_diagnosis": "Takotsubo cardiomyopathy",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "367fc573bbecad5a"
+    },
+    {
+      "case_id": "188",
+      "correct_diagnosis": "Hair tourniquet syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "76d7555291ac46e8"
+    },
+    {
+      "case_id": "189",
+      "correct_diagnosis": "Borderline personality disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "421a67acbc777c8f"
+    },
+    {
+      "case_id": "190",
+      "correct_diagnosis": "Factitious disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "73bd0aec28e2460d"
+    },
+    {
+      "case_id": "191",
+      "correct_diagnosis": "Acalculous cholecystitis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "bc92f272b456a99a"
+    },
+    {
+      "case_id": "192",
+      "correct_diagnosis": "Lambert-Eaton Syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "b969fa0dc54bfbe7"
+    },
+    {
+      "case_id": "193",
+      "correct_diagnosis": "Cardiac Tamponade",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "649df3b181e574e4"
+    },
+    {
+      "case_id": "194",
+      "correct_diagnosis": "Papillary carcinoma of the thyroid",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9975b929391ac588"
+    },
+    {
+      "case_id": "195",
+      "correct_diagnosis": "Pseudocyesis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9a9b3eb15bdc2fb0"
+    },
+    {
+      "case_id": "196",
+      "correct_diagnosis": "Hypertrophic cardiomyopathy",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "d42028e7af0d5e7d"
+    },
+    {
+      "case_id": "197",
+      "correct_diagnosis": "Autosomal dominant polycystic kidney disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "9a46348564add2de"
+    },
+    {
+      "case_id": "198",
+      "correct_diagnosis": "Pneumonia",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "beffeb4a22aa8568"
+    },
+    {
+      "case_id": "199",
+      "correct_diagnosis": "Bullous pemphigoid",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "28a8f2d578052acf"
+    },
+    {
+      "case_id": "200",
+      "correct_diagnosis": "Somatization disorder",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "72c0db717edffb13"
+    },
+    {
+      "case_id": "201",
+      "correct_diagnosis": "Chronic kidney failure",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "d1dcbf478a965e89"
+    },
+    {
+      "case_id": "202",
+      "correct_diagnosis": "Tinea cruris",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "2cd6b6598d9e952b"
+    },
+    {
+      "case_id": "203",
+      "correct_diagnosis": "Vaginal septum",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "dda1d6b71a23b7c5"
+    },
+    {
+      "case_id": "204",
+      "correct_diagnosis": "Gastric peptic ulcer",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "05e582e4f88b1d92"
+    },
+    {
+      "case_id": "205",
+      "correct_diagnosis": "Neuroleptic Malignant Syndrome",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "8a19e18fcbd507c4"
+    },
+    {
+      "case_id": "206",
+      "correct_diagnosis": "Ewing sarcoma",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "c54fb5bf9e6316d1"
+    },
+    {
+      "case_id": "207",
+      "correct_diagnosis": "Femoropopliteal artery stenosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "747679d66c385c5a"
+    },
+    {
+      "case_id": "208",
+      "correct_diagnosis": "Central retinal artery occlusion",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "ea053d59887f0b3e"
+    },
+    {
+      "case_id": "209",
+      "correct_diagnosis": "Vitiligo",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "8dcb79373273c6a0"
+    },
+    {
+      "case_id": "210",
+      "correct_diagnosis": "Bacillus cereus infection",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "0edb02342903d013"
+    },
+    {
+      "case_id": "211",
+      "correct_diagnosis": "Chronic lymphocytic leukemia (CLL)",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "e88060af5df770e2"
+    },
+    {
+      "case_id": "212",
+      "correct_diagnosis": "Crohn’s disease",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "f465c222cd790bfc"
+    },
+    {
+      "case_id": "213",
+      "correct_diagnosis": "Seborrheic keratosis",
+      "static_fields": [
+        "Objective_for_Doctor",
+        "Patient_Actor",
+        "Physical_Examination_Findings",
+        "Test_Results"
+      ],
+      "text_hash": "08f7071050fd6f7a"
+    }
+  ],
+  "manifest_version": 1
+}

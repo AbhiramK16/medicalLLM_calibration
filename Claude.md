@@ -129,6 +129,9 @@ This study uses simulated benchmark data, not real patients, so privacy risk is 
 
 
 
+
+
+
 # Full task set:
 
 1.1: Calibration Collapse in Sequential Clinical Dialogue Agents Turn-Level Confidence vs. Accuracy in Multi-Turn Medical LLM Diagnosis
@@ -256,6 +259,36 @@ Build your static vignette by concatenating fields from that same record: patien
 Build Baseline 2 by taking the same evidence fields and shuffling their reveal order.
 Emit a cases.json manifest: case_id, correct_diagnosis, text_hash, and which fields went into the static vignette. Everyone's pipeline logs case_id into Keyi's shared schema.
 Then the integrity check is one line: assert the set of case IDs is identical across all three condition logs, and that correct_diagnosis per ID matches. Run that before anyone computes ECE.
+
+
+# Implementation Notes & Suggestions (decided 2026-08)
+
+These supersede any ambiguity in the proposal above. Add to the proposal doc when frozen.
+
+## Data & case identity
+- The dataset file in this repo is `data/agentclinic_medqa_extended.jsonl`, NOT `agentclinic_medqa.jsonl`, and it contains **214 cases**, not 215. Confirm the count against the upstream AgentClinic release before freezing the case set. The last line has no trailing newline, so `wc -l` undercounts by one.
+- `case_id` = **line index as a string** (`"0"` … `"213"`). This matches AgentClinic's native `get_scenario(id)`. Kept deliberately simple for debugging.
+- `text_hash` = sha256(`Correct_Diagnosis` + `json.dumps(Patient_Actor, sort_keys=True)`) truncated to **16 hex chars** (64 bits — plenty for 214 cases). This is `medQA.findHash` in `dataload/agentclinic.py`. Because `case_id` is a line index, `text_hash` is the ONLY guard against upstream reordering/expansion silently changing what each case means — verify it at run time.
+- The manifest lives in `src/calibration_collapse/checks/sameCases.py` (`build_manifest` / `write_manifest` / `load_manifest` / `verify_manifest`). Build it once to `data/cases.json`, then `verify_manifest(manifest)` before every run.
+- Pipelines MUST read `case_id` and `correct_diagnosis` from the manifest, never recompute them. That is what makes the three conditions "matched case-for-case."
+
+## Evidence presentation (Baselines 1 & 2, implemented)
+- Static (`experiments/static.py`): one `TurnRecord` per case, `turn_bin='static'`, `evidence_seen=['complete vignette']`, no `evidence_order_seed`. Vignette = `medQA.vignette(case['OSCE_Examination'])`.
+- Randomized (`experiments/randomized_order.py`): atomic evidence pieces from `medQA.extract_evidence(case)` (only `Patient_Actor`, `Physical_Examination_Findings`, `Test_Results`), shuffled with `random.Random(seed)`, revealed one per turn. Every reveal writes a `TurnRecord` with `evidence_order_seed` and `turn_bin` from `turn_bin_for`.
+- **Documented asymmetry to keep in mind**: the static vignette includes `Objective_for_Doctor` (task instruction); the randomized shuffle does not shuffle it. Decide and document whether this matters for sequential-vs-static interpretation.
+- The sequential condition starts from the same skeleton but replaces the shuffle with the AgentClinic doctor/patient dialogue loop (still requires vendoring AgentClinic — not done yet).
+
+## Reproducibility & config
+- `configs/experiment.yaml` is UNFROZEN by design: `backbones`, `seeds`, `case_ids`/`case_count` must be filled before any formal run. Both runners raise if `backbones` is empty.
+- Pin exact backbone version strings in the config; cost-per-case comes from `TurnRecord.input_tokens/output_tokens/cost_usd` (currently defaulted to 0 — model layer TODO).
+- `run_model.query` and `confidence.parse_probe` are minimal fill-ins (Kishore / Aarav): `query` calls an OpenAI-compatible endpoint via stdlib using `MODEL_API_KEY` / `MODEL_API_BASE` env vars; `parse_probe` returns `(diagnosis, confidence, ok, failure_type)` with explicit failure codes. Retries, timeouts, token accounting, and spend caps are still TODO.
+- Tests can run without an API key by injecting a fake `query_fn`/`parse_fn` into `run_static`/`run_randomized`.
+- `tests/test_schema.py` uses placeholder `case_id="medqa-001"`; change fixtures to a line-index string (e.g. `"0"`) to model the real convention, and add tests for `sameCases.py` (round-trip + drift detection).
+
+## Repo layout changes since the proposal
+- `datasets/` was renamed to `dataload/` (imports: `calibration_collapse.dataload.agentclinic`).
+- `checks/` holds the manifest module; add `checks/__init__.py` so it packages cleanly.
+- `data/cases.json` is generated (currently untracked) — decide whether to commit it as a tracked manifest or gitignore it.
 
 
 
