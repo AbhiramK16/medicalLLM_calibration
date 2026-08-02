@@ -1,13 +1,16 @@
 # Shared experiment configuration.
-# Values marked null or [] must be frozen before a formal run.
 experiment_name: calibration-collapse
-case_count: null
+case_count: 100
 case_ids: []
 
 dataset:
   name: agentclinic-medqa
 
-backbones: []
+backbones:
+  - label: standard_instruction
+    model: openai/gpt-4o-mini
+  - label: reasoning
+    model: openai/o4-mini
 
 conditions:
   - sequential
@@ -15,11 +18,17 @@ conditions:
   - static
 
 turns:
-  dialogue: null
+  dialogue: 6
   static: 1
   bins:
+    method: proportional_dialogue_thirds
     early_max_fraction: 0.3333333333333333
     middle_max_fraction: 0.6666666666666666
+    six_turn_mapping:
+      early: [1, 2]
+      middle: [3, 4]
+      late: [5, 6]
+    static_label: static
 
 seeds:
   - 0

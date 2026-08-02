@@ -10,6 +10,29 @@ The experiment compares three pipelines on matched cases:
    reproducibly shuffled order.
 3. `static` — the complete vignette is shown in one step.
 
+## Frozen study scope
+
+- **Cases:** 100 AgentClinic-MedQA cases.
+- **Standard instruction backbone:** `openai/gpt-4o-mini`.
+- **Reasoning backbone:** `openai/o4-mini`.
+- **Dialogue length:** six prediction turns per case for `sequential` and
+  `randomized_order`.
+- **Static length:** one full-vignette prediction per case.
+- **Turn bins:** for dialogue turn `t` out of `T`, `early` means
+  `t/T <= 1/3`, `middle` means `1/3 < t/T <= 2/3`, and `late` means
+  `t/T > 2/3`.
+
+With six dialogue turns, the bins are balanced:
+
+| Bin | Turns |
+|---|---|
+| Early | 1–2 |
+| Middle | 3–4 |
+| Late | 5–6 |
+
+Static predictions use the separate `static` label and are not placed into a
+dialogue bin.
+
 All pipelines must write the same versioned turn-level JSONL record defined in
 `src/calibration_collapse/evaluation/schema.py`. See
 `docs/turn_logging_schema.md` for field meanings and examples.

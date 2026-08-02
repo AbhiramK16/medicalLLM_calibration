@@ -45,6 +45,17 @@ def test_four_turn_mapping_is_early_middle_late_late():
     ]
 
 
+def test_frozen_six_turn_mapping_has_balanced_thirds():
+    assert [turn_bin_for(index, 6) for index in range(1, 7)] == [
+        "early",
+        "early",
+        "middle",
+        "middle",
+        "late",
+        "late",
+    ]
+
+
 def test_each_pipeline_uses_the_same_record_type():
     sequential = make_record()
     randomized = make_record(
