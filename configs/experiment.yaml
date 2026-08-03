@@ -12,6 +12,15 @@ backbones:
   - label: reasoning
     model: openai/o4-mini
 
+# This role is deliberately identical for every doctor backbone. Changing any
+# field below creates a different experimental patient and must fail validation.
+patient_agent:
+  model: openai/gpt-4o-mini
+  temperature: 0.05
+  max_output_tokens: 200
+  prompt_version: agentclinic-patient-v1
+  bias: none
+
 conditions:
   - sequential
   - randomized_order

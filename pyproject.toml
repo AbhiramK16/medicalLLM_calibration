@@ -7,6 +7,7 @@ name = "medical-llm-calibration"
 version = "0.1.0"
 description = "Turn-level calibration experiments for clinical dialogue agents"
 requires-python = ">=3.11"
+dependencies = ["PyYAML>=6.0"]
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0"]

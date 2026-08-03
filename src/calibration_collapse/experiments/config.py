@@ -7,6 +7,8 @@ from pathlib import Path
 
 import yaml
 
+from calibration_collapse.experiments.probe_isolation import PatientAgentConfig
+
 DEFAULT_CONFIG_PATH = Path("configs/experiment.yaml")
 DEFAULT_MANIFEST_PATH = "data/cases.json"
 
@@ -22,6 +24,7 @@ class ExperimentConfig:
     output_dir: str = "results/raw_outputs"
     turn_file: str = "turns.jsonl"
     manifest_path: str = DEFAULT_MANIFEST_PATH
+    patient_agent: PatientAgentConfig | None = None
 
     @property
     def output_path(self) -> Path:
@@ -35,15 +38,28 @@ def load_config(path: str | Path = DEFAULT_CONFIG_PATH) -> ExperimentConfig:
     with Path(path).open(encoding="utf-8") as handle:
         raw = yaml.safe_load(handle) or {}
     output = raw.get("output", {}) or {}
+    patient = raw.get("patient_agent", {}) or {}
+    backbone_entries = raw.get("backbones", [])
+    backbones = tuple(
+        str(entry["model"]) if isinstance(entry, dict) else str(entry)
+        for entry in backbone_entries
+    )
     return ExperimentConfig(
         experiment_name=raw.get("experiment_name", "calibration-collapse"),
         dataset=(raw.get("dataset", {}) or {}).get("name", "agentclinic-medqa"),
-        backbones=tuple(raw.get("backbones", [])),
+        backbones=backbones,
         seeds=tuple(int(seed) for seed in raw.get("seeds", [0])),
         case_ids=tuple(str(case_id) for case_id in raw.get("case_ids", [])),
         case_count=raw.get("case_count"),
         output_dir=output.get("directory", "results/raw_outputs"),
         turn_file=output.get("turn_file", "turns.jsonl"),
+        patient_agent=PatientAgentConfig(
+            model=str(patient["model"]),
+            temperature=float(patient["temperature"]),
+            max_output_tokens=int(patient["max_output_tokens"]),
+            prompt_version=str(patient["prompt_version"]),
+            bias=str(patient.get("bias", "none")),
+        ) if patient else None,
     )
 
 

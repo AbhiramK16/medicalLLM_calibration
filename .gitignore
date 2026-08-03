@@ -25,3 +25,6 @@ results/raw_outputs/*
 .DS_Store
 .idea/
 .vscode/
+
+# Local benchmark/runtime dependencies
+.local/
