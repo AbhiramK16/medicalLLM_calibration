@@ -1,0 +1,240 @@
+model                variant case_id    turn  confidence  resp_len  match     diagnosis
+------------------------------------------------------------------------------------------------------------------------
+deepseek/deepseek-r1 V1     real_001   1     0.85        779       no_match  Spinal metastasis
+deepseek/deepseek-r1 V1     real_001   2     0.85        975       no_match  Metastatic spinal cord compression
+deepseek/deepseek-r1 V1     real_001   3     0.9         1213      match     Metastatic epidural spinal cord compression with cauda equina syndrome
+deepseek/deepseek-r1 V1     real_002   1     0.65        910       no_match  Premature adrenarche
+deepseek/deepseek-r1 V1     real_002   2     0.75        1136      no_match  Peripheral precocious puberty
+deepseek/deepseek-r1 V1     real_002   3     0.85        933       match     Juvenile granulosa cell tumor
+deepseek/deepseek-r1 V1     real_003   1     0.85        1000      match     Acute interstitial nephritis
+deepseek/deepseek-r1 V1     real_003   2     0.85        1271      match     Drug-induced acute interstitial nephritis
+deepseek/deepseek-r1 V1     real_003   3     0.95        1083      match     Acute interstitial nephritis
+deepseek/deepseek-r1 V1     real_004   1     0.7         992       no_match  Anterior cruciate ligament tear
+deepseek/deepseek-r1 V1     real_004   2     0.7         955       no_match  Meniscal tear
+deepseek/deepseek-r1 V1     real_004   3     0.85        1134      no_match  Patellar tendinitis
+deepseek/deepseek-r1 V1     real_005   1     0.8         879       match     Micturition syncope
+deepseek/deepseek-r1 V1     real_005   2     0.8         887       match     Micturition syncope
+deepseek/deepseek-r1 V1     real_005   3     0.92        907       no_match  Vasovagal syncope
+deepseek/deepseek-r1 V1     real_006   1     0.85        1098      no_match  Antibiotic-induced delirium
+deepseek/deepseek-r1 V1     real_006   2     0.75        1217      no_match  Antibiotic-induced encephalopathy
+deepseek/deepseek-r1 V1     real_006   3     0.85        1204      match     Delirium tremens
+deepseek/deepseek-r1 V1     real_007   1     0.85        1258      match     Myasthenia Gravis
+deepseek/deepseek-r1 V1     real_007   2     0.95        945       match     Myasthenia gravis
+deepseek/deepseek-r1 V1     real_007   3     0.95        1005      match     Myasthenia gravis
+deepseek/deepseek-r1 V1     real_008   1     0.75        879       no_match  Vitamin B12 deficiency
+deepseek/deepseek-r1 V1     real_008   2     0.85        1022      match     Progressive multifocal leukoencephalopathy
+deepseek/deepseek-r1 V1     real_008   3     0.85        1078      match     Progressive multifocal leukoencephalopathy
+deepseek/deepseek-r1 V1     real_009   1     0.6         1010      no_match  Gastroesophageal reflux
+deepseek/deepseek-r1 V1     real_009   2     0.7         1051      no_match  Gastroesophageal reflux disease
+deepseek/deepseek-r1 V1     real_009   3     0.7         1177      no_match  Intussusception
+deepseek/deepseek-r1 V1     real_010   1     0.75        1007      match     Lymphoma
+deepseek/deepseek-r1 V1     real_010   2     0.85        1006      no_match  Non-Hodgkin lymphoma
+deepseek/deepseek-r1 V1     real_010   3     0.92        962       match     Diffuse Large B-Cell Lymphoma
+deepseek/deepseek-r1 V2     real_001   1     0.85        1324      no_match  Spinal metastasis from prostate cancer
+deepseek/deepseek-r1 V2     real_001   2     0.85        1439      no_match  Spinal metastasis from prostate cancer
+deepseek/deepseek-r1 V2     real_001   3     0.95        1442      match     Cauda equina syndrome due to metastatic spinal cord compression
+deepseek/deepseek-r1 V2     real_002   1     0.65        1503      no_match  Premature adrenarche
+deepseek/deepseek-r1 V2     real_002   2     0.85        1781      no_match  Precocious Puberty
+deepseek/deepseek-r1 V2     real_002   3     0.95        1494      no_match  Estrogen-secreting ovarian tumor
+deepseek/deepseek-r1 V2     real_003   1     0.75        1510      match     Acute Interstitial Nephritis
+deepseek/deepseek-r1 V2     real_003   2     0.75        2178      match     Drug-induced acute interstitial nephritis
+deepseek/deepseek-r1 V2     real_003   3     0.85        1823      match     Acute Interstitial Nephritis (Drug-Induced)
+deepseek/deepseek-r1 V2     real_004   1     0.65        1467      no_match  Meniscal tear
+deepseek/deepseek-r1 V2     real_004   2     0.65        1185      no_match  Acute medial collateral ligament (MCL) sprain
+deepseek/deepseek-r1 V2     real_004   3     0.7         1869      match     Pes anserine bursitis
+deepseek/deepseek-r1 V2     real_005   1     0.75        1758      match     Micturition syncope
+deepseek/deepseek-r1 V2     real_005   2     0.85        1531      match     Vasovagal syncope (micturition syncope)
+deepseek/deepseek-r1 V2     real_005   3     0.85        2091      match     Micturition syncope
+deepseek/deepseek-r1 V2     real_006   1     0.85        1122      match     Delirium
+deepseek/deepseek-r1 V2     real_006   2     0.85        1902      no_match  Piperacillin-tazobactam-induced neurotoxicity
+deepseek/deepseek-r1 V2     real_006   3     0.85        1951      no_match  Antibiotic-associated encephalopathy due to piperacillin-tazobactam
+deepseek/deepseek-r1 V2     real_007   1     0.7         1534      match     Myasthenia gravis
+deepseek/deepseek-r1 V2     real_007   2     0.85        1465      match     Myasthenia Gravis
+deepseek/deepseek-r1 V2     real_007   3     0.95        1522      match     Myasthenia gravis
+deepseek/deepseek-r1 V2     real_008   1     0.75        1124      no_match  Vitamin B12 deficiency
+deepseek/deepseek-r1 V2     real_008   2     0.65        1673      match     Progressive multifocal leukoencephalopathy (PML)
+deepseek/deepseek-r1 V2     real_008   3     0.75        1835      match     Progressive multifocal leukoencephalopathy (PML)
+deepseek/deepseek-r1 V2     real_009   1     0.5         2538      no_match  Cow's Milk Protein Allergy
+deepseek/deepseek-r1 V2     real_009   2     0.5         1668      no_match  Teething
+deepseek/deepseek-r1 V2     real_009   3     0.65        1749      no_match  Intussusception
+deepseek/deepseek-r1 V2     real_010   1     0.65        1513      match     Lymphoma
+deepseek/deepseek-r1 V2     real_010   2     0.75        1309      match     Lymphoma
+deepseek/deepseek-r1 V2     real_010   3     0.9         1595      match     Diffuse Large B-Cell Lymphoma
+deepseek/deepseek-r1 V3     real_001   1     0.85        66        no_match  Spinal metastasis from prostate cancer
+deepseek/deepseek-r1 V3     real_001   2     0.9         44        no_match  Spinal metastasis
+deepseek/deepseek-r1 V3     real_001   3     0.95        51        match     Cauda equina syndrome
+deepseek/deepseek-r1 V3     real_002   1     0.7         69        no_match  Non-classic Congenital Adrenal Hyperplasia
+deepseek/deepseek-r1 V3     real_002   2     0.7         945       no_match  Androgen-secreting tumor (e.g., adrenal or ovarian origin)
+deepseek/deepseek-r1 V3     real_002   3     0.95        72        match     Juvenile granulosa cell tumor of the ovary
+deepseek/deepseek-r1 V3     real_003   1     0.85        63        match     Drug-Induced Interstitial Nephritis
+deepseek/deepseek-r1 V3     real_003   2     0.75        58        match     Acute interstitial nephritis
+deepseek/deepseek-r1 V3     real_003   3     0.9         57        match     Acute Interstitial Nephritis
+deepseek/deepseek-r1 V3     real_004   1     0.65        587       no_match  Anterior cruciate ligament (ACL) sprain or tear
+deepseek/deepseek-r1 V3     real_004   2     0.65        67        no_match  Anterior cruciate ligament (ACL) injury
+deepseek/deepseek-r1 V3     real_004   3     0.8         48        match     Pes anserine bursitis
+deepseek/deepseek-r1 V3     real_005   1     0.7         46        match     Micturition syncope
+deepseek/deepseek-r1 V3     real_005   2     0.85        47        match     Micturition syncope
+deepseek/deepseek-r1 V3     real_005   3     0.95        848       match     Vasovagal syncope (specifically micturition syncope)
+deepseek/deepseek-r1 V3     real_006   1     0.85        934       no_match  Antibiotic-induced encephalopathy (specifically piperacillin-tazobactam neurotoxicity)
+deepseek/deepseek-r1 V3     real_006   2     0.85        1037      no_match  Anticholinergic syndrome
+deepseek/deepseek-r1 V3     real_006   3     0.9         893       no_match  Alcohol withdrawal
+deepseek/deepseek-r1 V3     real_007   1     0.85        45        match     Myasthenia Gravis
+deepseek/deepseek-r1 V3     real_007   2     0.95        47        match     Myasthenia gravis
+deepseek/deepseek-r1 V3     real_007   3     0.95        45        match     Myasthenia gravis
+deepseek/deepseek-r1 V3     real_008   1     0.85        622       no_match  Vitamin B12 deficiency
+deepseek/deepseek-r1 V3     real_008   2     0.8         69        match     Progressive multifocal leukoencephalopathy
+deepseek/deepseek-r1 V3     real_008   3     0.85        70        match     Progressive multifocal leukoencephalopathy
+deepseek/deepseek-r1 V3     real_009   1     0.65        59        no_match  Gastroesophageal reflux disease
+deepseek/deepseek-r1 V3     real_009   2     0.65        53        no_match  Congenital Hypothyroidism
+deepseek/deepseek-r1 V3     real_009   3     0.85        43        no_match  Intussusception
+deepseek/deepseek-r1 V3     real_010   1     0.7         43        no_match  Hodgkin lymphoma
+deepseek/deepseek-r1 V3     real_010   2     0.85        38        match     Lymphoma
+deepseek/deepseek-r1 V3     real_010   3     0.85        59        match     Diffuse large B-cell lymphoma
+openai/gpt-4o-mini   V1     real_001   1     0.75        972       no_match  Metastatic spinal disease
+openai/gpt-4o-mini   V1     real_001   2     0.85        980       no_match  Metastatic spinal disease
+openai/gpt-4o-mini   V1     real_001   3     0.85        962       match     Cauda equina syndrome
+openai/gpt-4o-mini   V1     real_002   1     0.65        929       no_match  Central Precocious Puberty
+openai/gpt-4o-mini   V1     real_002   2     0.7         934       no_match  Premature adrenarche
+openai/gpt-4o-mini   V1     real_002   3     0.85        845       no_match  Ovarian neoplasm
+openai/gpt-4o-mini   V1     real_003   1     0.85        909       match     Acute interstitial nephritis
+openai/gpt-4o-mini   V1     real_003   2     0.75        847       match     Acute interstitial nephritis
+openai/gpt-4o-mini   V1     real_003   3     0.85        1038      match     Acute interstitial nephritis
+openai/gpt-4o-mini   V1     real_004   1     0.8         789       no_match  Anterior cruciate ligament injury
+openai/gpt-4o-mini   V1     real_004   2     0.6         953       no_match  ACL injury
+openai/gpt-4o-mini   V1     real_004   3     0.85        943       no_match  Patellofemoral pain syndrome
+openai/gpt-4o-mini   V1     real_005   1     0.7         853       no_match  Vasovagal syncope
+openai/gpt-4o-mini   V1     real_005   2     0.75        869       no_match  Vasovagal syncope
+openai/gpt-4o-mini   V1     real_005   3     0.85        833       no_match  Vasovagal syncope
+openai/gpt-4o-mini   V1     real_006   1     0.75        952       match     Delirium
+openai/gpt-4o-mini   V1     real_006   2     0.7         880       match     Delirium
+openai/gpt-4o-mini   V1     real_006   3     0.85        913       no_match  Post-operative delirium
+openai/gpt-4o-mini   V1     real_007   1     0.85        777       match     Myasthenia Gravis
+openai/gpt-4o-mini   V1     real_007   2     0.85        761       match     Myasthenia Gravis
+openai/gpt-4o-mini   V1     real_007   3     0.9         787       match     Myasthenia Gravis
+openai/gpt-4o-mini   V1     real_008   1     0.7         1010      no_match  Gait disorders secondary to neurological involvement from Crohn's disease
+openai/gpt-4o-mini   V1     real_008   2     0.7         889       match     Progressive multifocal leukoencephalopathy (PML)
+openai/gpt-4o-mini   V1     real_008   3     0.7         916       match     Progressive multifocal leukoencephalopathy
+openai/gpt-4o-mini   V1     real_009   1     0.6         794       no_match  Gastroesophageal reflux disease (GERD)
+openai/gpt-4o-mini   V1     real_009   2     0.65        972       no_match  Failure to thrive
+openai/gpt-4o-mini   V1     real_009   3     0.7         974       no_match  Intussusception
+openai/gpt-4o-mini   V1     real_010   1     0.85        801       match     Lymphoma
+openai/gpt-4o-mini   V1     real_010   2     0.85        887       no_match  Hodgkin lymphoma
+openai/gpt-4o-mini   V1     real_010   3     0.85        929       match     Diffuse large B-cell lymphoma
+openai/gpt-4o-mini   V2     real_001   1     0.85        1295      no_match  Metastatic spinal disease
+openai/gpt-4o-mini   V2     real_001   2     0.8         1180      no_match  Pathologic vertebral fracture due to metastatic cancer
+openai/gpt-4o-mini   V2     real_001   3     0.9         1178      match     Cauda Equina Syndrome
+openai/gpt-4o-mini   V2     real_002   1     0.7         803       no_match  Precocious puberty
+openai/gpt-4o-mini   V2     real_002   2     0.8         1043      no_match  Precocious Puberty
+openai/gpt-4o-mini   V2     real_002   3     0.9         1399      match     Ovarian Tumor (likely sex-cord-stromal tumor or granulosa cell tumor)
+openai/gpt-4o-mini   V2     real_003   1     0.8         1198      match     Acute interstitial nephritis
+openai/gpt-4o-mini   V2     real_003   2     0.7         1225      no_match  Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) Syndrome
+openai/gpt-4o-mini   V2     real_003   3     0.85        1341      match     Acute interstitial nephritis
+openai/gpt-4o-mini   V2     real_004   1     0.7         921       no_match  Patellar tendinitis
+openai/gpt-4o-mini   V2     real_004   2     0.7         1386      no_match  Meniscal tear
+openai/gpt-4o-mini   V2     real_004   3     0.8         1297      no_match  Patellar tendinopathy
+openai/gpt-4o-mini   V2     real_005   1     0.7         774       match     Syncope
+openai/gpt-4o-mini   V2     real_005   2     0.8         1194      no_match  Vasovagal syncope
+openai/gpt-4o-mini   V2     real_005   3     0.85        1143      match     Syncopal episode due to micturition (micturition syncope)
+openai/gpt-4o-mini   V2     real_006   1     0.8         979       match     Delirium
+openai/gpt-4o-mini   V2     real_006   2     0.85        872       match     Delirium
+openai/gpt-4o-mini   V2     real_006   3     0.85        1030      match     Delirium
+openai/gpt-4o-mini   V2     real_007   1     0.8         959       match     Myasthenia Gravis
+openai/gpt-4o-mini   V2     real_007   2     0.85        981       match     Myasthenia Gravis
+openai/gpt-4o-mini   V2     real_007   3     0.9         1029      match     Myasthenia Gravis
+openai/gpt-4o-mini   V2     real_008   1     0.7         792       no_match  Neuropathy
+openai/gpt-4o-mini   V2     real_008   2     0.7         1225      no_match  Multiple Sclerosis
+openai/gpt-4o-mini   V2     real_008   3     0.7         1050      no_match  Cerebellar ataxia due to multiple sclerosis
+openai/gpt-4o-mini   V2     real_009   1     0.7         1135      no_match  Gastroesophageal Reflux Disease (GERD)
+openai/gpt-4o-mini   V2     real_009   2     0.7         1009      no_match  Gastroesophageal Reflux Disease (GERD)
+openai/gpt-4o-mini   V2     real_009   3     0.8         979       no_match  Intussusception
+openai/gpt-4o-mini   V2     real_010   1     0.85        957       match     Lymphoma
+openai/gpt-4o-mini   V2     real_010   2     0.8         903       match     Lymphoma
+openai/gpt-4o-mini   V2     real_010   3     0.9         1242      no_match  Non-Hodgkin Lymphoma
+openai/gpt-4o-mini   V3     real_001   1     0.85        71        no_match  Metastatic bone pain from prostate cancer
+openai/gpt-4o-mini   V3     real_001   2     0.85        48        no_match  Metastatic bone pain
+openai/gpt-4o-mini   V3     real_001   3     0.95        51        match     Cauda Equina Syndrome
+openai/gpt-4o-mini   V3     real_002   1     0.85        48        no_match  Precocious puberty
+openai/gpt-4o-mini   V3     real_002   2     0.85        48        no_match  Precocious puberty
+openai/gpt-4o-mini   V3     real_002   3     0.85        124       no_match  Ovarian tumor (such as a sex-cord stromal tumor or germ cell tumor causing precocious puberty)
+openai/gpt-4o-mini   V3     real_003   1     0.85        100       no_match  Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) syndrome
+openai/gpt-4o-mini   V3     real_003   2     0.85        58        match     Acute interstitial nephritis
+openai/gpt-4o-mini   V3     real_003   3     0.85        58        match     Acute interstitial nephritis
+openai/gpt-4o-mini   V3     real_004   1     0.75        67        no_match  Anterior Cruciate Ligament (ACL) tear
+openai/gpt-4o-mini   V3     real_004   2     0.7         48        no_match  Patellar tendonitis
+openai/gpt-4o-mini   V3     real_004   3     0.7         50        no_match  Patellar tendinopathy
+openai/gpt-4o-mini   V3     real_005   1     0.7         46        no_match  Vasovagal syncope
+openai/gpt-4o-mini   V3     real_005   2     0.85        47        no_match  Vasovagal syncope
+openai/gpt-4o-mini   V3     real_005   3     0.8         46        no_match  Vasovagal syncope
+openai/gpt-4o-mini   V3     real_006   1     0.85        37        match     Delirium
+openai/gpt-4o-mini   V3     real_006   2     0.8         36        match     Delirium
+openai/gpt-4o-mini   V3     real_006   3     0.85        37        match     Delirium
+openai/gpt-4o-mini   V3     real_007   1     0.85        47        match     Myasthenia Gravis
+openai/gpt-4o-mini   V3     real_007   2     0.9         46        match     Myasthenia Gravis
+openai/gpt-4o-mini   V3     real_007   3     0.95        47        match     Myasthenia Gravis
+openai/gpt-4o-mini   V3     real_008   1     0.7         65        no_match  Neuropathy related to Crohn's disease
+openai/gpt-4o-mini   V3     real_008   2     0.75        47        no_match  Multiple Sclerosis
+openai/gpt-4o-mini   V3     real_008   3     0.8         47        no_match  Multiple Sclerosis
+openai/gpt-4o-mini   V3     real_009   1     0.7         67        no_match  Gastroesophageal Reflux Disease (GERD)
+openai/gpt-4o-mini   V3     real_009   2     0.7         33        no_match  Colic
+openai/gpt-4o-mini   V3     real_009   3     0.85        45        no_match  Intussusception
+openai/gpt-4o-mini   V3     real_010   1     0.85        38        match     Lymphoma
+openai/gpt-4o-mini   V3     real_010   2     0.85        38        match     Lymphoma
+openai/gpt-4o-mini   V3     real_010   3     0.9         49        no_match  Non-Hodgkin lymphoma
+
+========================================================================================================================
+AGGREGATE STATS PER MODEL x VARIANT
+(accuracy = heuristic keyword-overlap match rate
+========================================================================================================================
+model                variant  n     avg_resp_len   avg_confidence   stdev_confidence   accuracy  
+deepseek/deepseek-r1 V1       30    1032.4         0.815            0.091              50.0%     
+deepseek/deepseek-r1 V2       30    1629.8         0.768            0.121              56.7%     
+deepseek/deepseek-r1 V3       30    237.5          0.818            0.100              53.3%     
+openai/gpt-4o-mini   V1       30    896.6          0.772            0.088              43.3%     
+openai/gpt-4o-mini   V2       30    1084.0         0.792            0.073              46.7%     
+openai/gpt-4o-mini   V3       30    53.0           0.818            0.074              36.7%     
+
+========================================================================================================================
+AVERAGE CONFIDENCE PER MODEL x VARIANT, PER TURN
+========================================================================================================================
+model                variant turn_1         turn_2         turn_3         
+deepseek/deepseek-r1 V1      0.765          0.805          0.874          
+deepseek/deepseek-r1 V2      0.710          0.755          0.840          
+deepseek/deepseek-r1 V3      0.765          0.795          0.895          
+openai/gpt-4o-mini   V1      0.750          0.740          0.825          
+openai/gpt-4o-mini   V2      0.760          0.770          0.845          
+openai/gpt-4o-mini   V3      0.795          0.810          0.850          
+
+========================================================================================================================
+ADDITIONAL STATS PER MODEL x VARIANT
+========================================================================================================================
+model                variant  fmt_compl   extra_dx_content   conf|match   conf|no_match  gap      conf_corr  top_conf_share
+deepseek/deepseek-r1 V1       100.0%      3.3%               0.865        0.765          0.100    0.556      40.0%
+deepseek/deepseek-r1 V2       100.0%      3.3%               0.794        0.735          0.060    0.248      33.3%
+deepseek/deepseek-r1 V3       76.7%       3.3%               0.862        0.768          0.095    0.478      36.7%
+openai/gpt-4o-mini   V1       100.0%      3.3%               0.804        0.747          0.057    0.326      43.3%
+openai/gpt-4o-mini   V2       100.0%      6.7%               0.836        0.753          0.083    0.572      33.3%
+openai/gpt-4o-mini   V3       100.0%      6.7%               0.868        0.789          0.079    0.524      50.0%
+
+Notes:
+- fmt_compl: followed the EXACT structural instruction for that variant (not just parseable anywhere in the text).
+- extra_dx_content: MANUALLY counted, PER MODEL, fraction of responses whose diagnosis field contains something beyond a standard clinical label.
+- gap = conf|match - conf|no_match. Positive and larger is better -- means confidence tracks correctness. Near-zero or negative means the confidence score isn't meaningful.
+- conf_corr: correlation between stated confidence and correctness across all records for that (model, variant) pair (NaN if no variance in the small sample)
+- top_conf_share: fraction of responses sharing the single most common confidence value -- high share may indicate degenerate, non-discriminating confidence
+
+
+Final Choice:
+After running the tests on V1, V2, and V3 across Deepseek Reasoning & GPT Instruction Model:
+All variants had 100% parser compliance
+All models & variants except gpt V1 grew more confident every turn
+Average response length was much shorter for V3, and very high for V2.
+Average confidence & standard deviation of confidence was similar, around .8 and .1 respectively
+Accuracy ranged from 36% to 57%, but not really enough tests to figure out who is more accurate
+The only model and verson that didn't always comply iwth the format was V3 on reasoning
+Gap and confidence correlation were better on average on V3
+
+Overall pick: V3, since it had a better confidence correlation on average than the others, 
+it had very low cost/length since it only asked for the answer
+It does have low format compliance on reasoning-tuned models, but that's a tradeoff I am willing
+to make due to its consistent performance and low gap as well as low cost and faster runtime
+V3 is a strong, defensible choice; although it isn't necesarrily proven to be the best, it is my choice.
