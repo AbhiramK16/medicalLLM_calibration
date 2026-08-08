@@ -1,0 +1,239 @@
+model                variant case_id    turn  confidence  resp_len  match     diagnosis
+------------------------------------------------------------------------------------------------------------------------
+deepseek/deepseek-r1 V1     ac_001     1     0.9         1184      match     Myasthenia gravis
+deepseek/deepseek-r1 V1     ac_001     2     0.9         1042      match     Myasthenia gravis
+deepseek/deepseek-r1 V1     ac_001     3     0.95        899       match     Myasthenia Gravis
+deepseek/deepseek-r1 V1     ac_002     1     0.85        1010      match     Progressive multifocal leukoencephalopathy (PML)
+deepseek/deepseek-r1 V1     ac_002     2     0.85        1012      match     Progressive multifocal leukoencephalopathy
+deepseek/deepseek-r1 V1     ac_002     3     0.99        1133      match     Progressive Multifocal Leukoencephalopathy
+deepseek/deepseek-r1 V1     ac_003     1     0.85        1050      no_match  Intussusception
+deepseek/deepseek-r1 V1     ac_003     2     0.7         1298      no_match  Constipation
+deepseek/deepseek-r1 V1     ac_003     3     0.95        1230      match     Hirschsprung disease
+deepseek/deepseek-r1 V1     ac_004     1     0.8         1072      match     Lymphoma
+deepseek/deepseek-r1 V1     ac_004     2     0.85        1063      no_match  Metastatic Gastric Adenocarcinoma
+deepseek/deepseek-r1 V1     ac_004     3     0.95        1083      match     Diffuse Large B-Cell Lymphoma
+deepseek/deepseek-r1 V1     ac_005     1     0.75        1142      match     Drug-induced interstitial nephritis
+deepseek/deepseek-r1 V1     ac_005     2     0.85        1129      match     Acute interstitial nephritis
+deepseek/deepseek-r1 V1     ac_005     3     0.85        1100      match     Acute interstitial nephritis
+deepseek/deepseek-r1 V1     ac_006     1     0.85        1076      no_match  Vasovagal syncope
+deepseek/deepseek-r1 V1     ac_006     2     0.85        1019      no_match  Vasovagal syncope
+deepseek/deepseek-r1 V1     ac_006     3     0.85        1012      no_match  Vasovagal syncope (micturition syncope)
+deepseek/deepseek-r1 V1     ac_007     1     0.7         1111      no_match  Ovarian cancer
+deepseek/deepseek-r1 V1     ac_007     2     0.8         1116      no_match  Ovarian Cancer
+deepseek/deepseek-r1 V1     ac_007     3     0.85        1029      match     Meigs' syndrome
+deepseek/deepseek-r1 V1     ac_008     1     0.85        1147      match     Multiple System Atrophy
+deepseek/deepseek-r1 V1     ac_008     2     0.7         1300      match     Multiple System Atrophy
+deepseek/deepseek-r1 V1     ac_008     3     0.85        1142      match     Multiple System Atrophy
+deepseek/deepseek-r1 V1     ac_009     1     0.75        1249      match     Coarctation of the aorta
+deepseek/deepseek-r1 V1     ac_009     2     0.95        1015      match     Coarctation of the aorta
+deepseek/deepseek-r1 V1     ac_009     3     0.97        893       match     Coarctation of the aorta
+deepseek/deepseek-r1 V1     ac_010     1     0.75        1254      no_match  Malignancy (recurrent testicular cancer or new primary malignancy)
+deepseek/deepseek-r1 V1     ac_010     2     0.75        1059      no_match  Lymphoma
+deepseek/deepseek-r1 V1     ac_010     3     0.98        1179      match     Chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL)
+deepseek/deepseek-r1 V2     ac_001     1     0.95        1368      match     Myasthenia Gravis
+deepseek/deepseek-r1 V2     ac_001     2     0.85        2256      match     Myasthenia Gravis
+deepseek/deepseek-r1 V2     ac_001     3     0.95        2018      match     Myasthenia gravis
+deepseek/deepseek-r1 V2     ac_002     1     0.8         1543      match     Progressive Multifocal Leukoencephalopathy (PML)
+deepseek/deepseek-r1 V2     ac_002     2     0.75        1939      match     Progressive multifocal leukoencephalopathy (PML)
+deepseek/deepseek-r1 V2     ac_002     3     0.95        1741      match     Progressive Multifocal Leukoencephalopathy (PML)
+deepseek/deepseek-r1 V2     ac_003     1     0.65        1188      no_match  Intussusception
+deepseek/deepseek-r1 V2     ac_003     2     0.7         2162      no_match  Constipation
+deepseek/deepseek-r1 V2     ac_003     3     0.9         1503      match     Hirschsprung disease
+deepseek/deepseek-r1 V2     ac_004     1     0.75        1645      match     Lymphoma
+deepseek/deepseek-r1 V2     ac_004     2     0.7         1906      match     Lymphoma
+deepseek/deepseek-r1 V2     ac_004     3     0.9         2194      match     Diffuse Large B-Cell Lymphoma
+deepseek/deepseek-r1 V2     ac_005     1     0.65        2036      match     Acute Interstitial Nephritis
+deepseek/deepseek-r1 V2     ac_005     2     0.75        2928      match     Acute interstitial nephritis
+deepseek/deepseek-r1 V2     ac_005     3     0.9         1445      match     Acute interstitial nephritis (likely drug-induced)
+deepseek/deepseek-r1 V2     ac_006     1     0.85        2796      no_match  Micturition syncope
+deepseek/deepseek-r1 V2     ac_006     2     0.65        1511      no_match  Micturition syncope
+deepseek/deepseek-r1 V2     ac_006     3     0.85        1990      no_match  Micturition syncope
+deepseek/deepseek-r1 V2     ac_007     1     0.65        2091      no_match  Ovarian Cancer
+deepseek/deepseek-r1 V2     ac_007     2     0.7         1595      no_match  Ovarian Cancer
+deepseek/deepseek-r1 V2     ac_007     3     0.7         1964      no_match  Ovarian Cancer
+deepseek/deepseek-r1 V2     ac_008     1     0.7         1749      match     Multiple System Atrophy (MSA)
+deepseek/deepseek-r1 V2     ac_008     2     0.65        1892      match     Multiple System Atrophy (MSA)
+deepseek/deepseek-r1 V2     ac_008     3     0.9         2575      match     Multiple System Atrophy (cerebellar variant, or MSA-C)
+deepseek/deepseek-r1 V2     ac_009     1     0.55        1633      match     Coarctation of the aorta
+deepseek/deepseek-r1 V2     ac_009     2     0.9         1539      match     Coarctation of the aorta
+deepseek/deepseek-r1 V2     ac_009     3     0.99        1696      match     Coarctation of the aorta
+deepseek/deepseek-r1 V2     ac_010     1     0.65        1908      no_match  Recurrence of non-seminomatous testicular cancer
+deepseek/deepseek-r1 V2     ac_010     2     0.7         1068      no_match  Lymphoma
+deepseek/deepseek-r1 V2     ac_010     3     0.95        1731      match     Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL)
+deepseek/deepseek-r1 V3     ac_001     1     0.85        45        match     Myasthenia gravis
+deepseek/deepseek-r1 V3     ac_001     2     0.95        45        match     Myasthenia gravis
+deepseek/deepseek-r1 V3     ac_001     3     0.99        45        match     Myasthenia gravis
+deepseek/deepseek-r1 V3     ac_002     1     0.95        75        match     Progressive multifocal leukoencephalopathy
+deepseek/deepseek-r1 V3     ac_002     2     0.95        70        match     Progressive multifocal leukoencephalopathy
+deepseek/deepseek-r1 V3     ac_002     3     0.95        70        match     Progressive Multifocal Leukoencephalopathy
+deepseek/deepseek-r1 V3     ac_003     1     0.65        43        no_match  Intussusception
+deepseek/deepseek-r1 V3     ac_003     2     0.7         885       no_match  Intussusception
+deepseek/deepseek-r1 V3     ac_003     3     0.9         47        match     Hirschsprung disease
+deepseek/deepseek-r1 V3     ac_004     1     0.7         35        match     Lymphoma
+deepseek/deepseek-r1 V3     ac_004     2     0.85        668       match     Lymphoma
+deepseek/deepseek-r1 V3     ac_004     3     0.95        59        match     Diffuse Large B-Cell Lymphoma
+deepseek/deepseek-r1 V3     ac_005     1     0.75        56        match     Acute interstitial nephritis
+deepseek/deepseek-r1 V3     ac_005     2     0.7         55        match     Acute interstitial nephritis
+deepseek/deepseek-r1 V3     ac_005     3     0.85        71        match     Acute interstitial nephritis (drug-induced)
+deepseek/deepseek-r1 V3     ac_006     1     0.95        859       no_match  Micturition syncope
+deepseek/deepseek-r1 V3     ac_006     2     0.85        47        no_match  Micturition syncope
+deepseek/deepseek-r1 V3     ac_006     3     0.85        47        no_match  Micturition syncope
+deepseek/deepseek-r1 V3     ac_007     1     0.7         729       no_match  Peritoneal carcinomatosis (likely ovarian primary)
+deepseek/deepseek-r1 V3     ac_007     2     0.85        42        no_match  Ovarian Cancer
+deepseek/deepseek-r1 V3     ac_007     3     0.85        44        match     Meigs syndrome
+deepseek/deepseek-r1 V3     ac_008     1     0.75        51        match     Multiple System Atrophy
+deepseek/deepseek-r1 V3     ac_008     2     0.75        78        match     Multiple System Atrophy, Parkinsonian type (MSA-P)
+deepseek/deepseek-r1 V3     ac_008     3     0.85        738       match     Multiple System Atrophy
+deepseek/deepseek-r1 V3     ac_009     1     0.8         1627      match     Coarctation of the aorta
+deepseek/deepseek-r1 V3     ac_009     2     0.95        52        match     Coarctation of the Aorta
+deepseek/deepseek-r1 V3     ac_009     3     0.95        54        match     Coarctation of the Aorta
+deepseek/deepseek-r1 V3     ac_010     1     0.8         71        no_match  Recurrent non-seminomatous testicular cancer
+deepseek/deepseek-r1 V3     ac_010     2     0.75        1274      no_match  Lymphoma
+deepseek/deepseek-r1 V3     ac_010     3     0.95        794       match     Chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL)
+openai/gpt-4o-mini   V1     ac_001     1     0.85        703       match     Myasthenia Gravis
+openai/gpt-4o-mini   V1     ac_001     2     0.85        901       match     Myasthenia gravis
+openai/gpt-4o-mini   V1     ac_001     3     0.9         747       match     Myasthenia Gravis
+openai/gpt-4o-mini   V1     ac_002     1     0.75        930       match     Progressive multifocal leukoencephalopathy (PML)
+openai/gpt-4o-mini   V1     ac_002     2     0.75        985       match     Progressive Multifocal Leukoencephalopathy (PML)
+openai/gpt-4o-mini   V1     ac_002     3     0.85        870       match     Progressive Multifocal Encephalopathy
+openai/gpt-4o-mini   V1     ac_003     1     0.7         945       no_match  Intussusception
+openai/gpt-4o-mini   V1     ac_003     2     0.85        860       no_match  Intussusception
+openai/gpt-4o-mini   V1     ac_003     3     0.85        932       match     Hirschsprung disease
+openai/gpt-4o-mini   V1     ac_004     1     0.75        1034      match     Lymphoma
+openai/gpt-4o-mini   V1     ac_004     2     0.85        775       match     Lymphoma
+openai/gpt-4o-mini   V1     ac_004     3     0.85        992       no_match  Non-Hodgkin Lymphoma
+openai/gpt-4o-mini   V1     ac_005     1     0.65        1009      no_match  Pyelonephritis
+openai/gpt-4o-mini   V1     ac_005     2     0.85        985       no_match  Pyelonephritis
+openai/gpt-4o-mini   V1     ac_005     3     0.75        909       match     Acute Interstitial Nephritis
+openai/gpt-4o-mini   V1     ac_006     1     0.8         793       no_match  Vasovagal syncope
+openai/gpt-4o-mini   V1     ac_006     2     0.85        972       no_match  Vasovagal syncope
+openai/gpt-4o-mini   V1     ac_006     3     0.85        833       no_match  Micturition syncope
+openai/gpt-4o-mini   V1     ac_007     1     0.65        977       no_match  Ovarian mass
+openai/gpt-4o-mini   V1     ac_007     2     0.75        1125      no_match  Ovarian cancer
+openai/gpt-4o-mini   V1     ac_007     3     0.7         952       no_match  Ovarian tumor
+openai/gpt-4o-mini   V1     ac_008     1     0.75        855       match     Multiple System Atrophy
+openai/gpt-4o-mini   V1     ac_008     2     0.75        991       no_match  Parkinson's disease
+openai/gpt-4o-mini   V1     ac_008     3     0.85        959       match     Multiple System Atrophy (MSA)
+openai/gpt-4o-mini   V1     ac_009     1     0.75        703       match     Coarctation of the aorta
+openai/gpt-4o-mini   V1     ac_009     2     0.75        935       match     Coarctation of the aorta
+openai/gpt-4o-mini   V1     ac_009     3     0.85        855       match     Coarctation of the aorta
+openai/gpt-4o-mini   V1     ac_010     1     0.75        815       no_match  Malignancy (suspected recurrence of cancer)
+openai/gpt-4o-mini   V1     ac_010     2     0.8         939       no_match  Lymphoma
+openai/gpt-4o-mini   V1     ac_010     3     0.85        1074      match     Chronic Lymphocytic Leukemia (CLL)
+openai/gpt-4o-mini   V2     ac_001     1     0.85        1413      match     Myasthenia Gravis
+openai/gpt-4o-mini   V2     ac_001     2     0.85        1270      match     Myasthenia Gravis
+openai/gpt-4o-mini   V2     ac_001     3     0.95        1251      match     Myasthenia Gravis
+openai/gpt-4o-mini   V2     ac_002     1     0.8         1281      no_match  Multiple Sclerosis
+openai/gpt-4o-mini   V2     ac_002     2     0.7         1231      no_match  Multiple Sclerosis (MS)
+openai/gpt-4o-mini   V2     ac_002     3     0.9         1196      match     Progressive Multifocal Encephalopathy (PML)
+openai/gpt-4o-mini   V2     ac_003     1     0.7         1091      no_match  Intestinal obstruction (possible volvulus or intussusception)
+openai/gpt-4o-mini   V2     ac_003     2     0.8         1426      no_match  Intestinal obstruction (likely due to intussusception)
+openai/gpt-4o-mini   V2     ac_003     3     0.85        1155      match     Hirschsprung disease
+openai/gpt-4o-mini   V2     ac_004     1     0.75        1012      match     Lymphoma
+openai/gpt-4o-mini   V2     ac_004     2     0.8         1184      match     Lymphoma
+openai/gpt-4o-mini   V2     ac_004     3     0.9         1280      no_match  Non-Hodgkin Lymphoma
+openai/gpt-4o-mini   V2     ac_005     1     0.75        1149      no_match  Pyelonephritis
+openai/gpt-4o-mini   V2     ac_005     2     0.8         1120      no_match  Pyelonephritis
+openai/gpt-4o-mini   V2     ac_005     3     0.8         1619      no_match  Acute Kidney Injury (AKI) likely due to a renal process
+openai/gpt-4o-mini   V2     ac_006     1     0.85        1160      match     Syncope
+openai/gpt-4o-mini   V2     ac_006     2     0.85        1135      no_match  Vasovagal syncope
+openai/gpt-4o-mini   V2     ac_006     3     0.8         1209      no_match  Vasovagal syncope
+openai/gpt-4o-mini   V2     ac_007     1     0.7         1151      no_match  Ascites
+openai/gpt-4o-mini   V2     ac_007     2     0.85        1441      no_match  Ovarian mass with associated ascites
+openai/gpt-4o-mini   V2     ac_007     3     0.8         1833      no_match  Ovarian tumor with ascites and right-sided pleural effusion
+openai/gpt-4o-mini   V2     ac_008     1     0.85        1103      no_match  Parkinson's disease
+openai/gpt-4o-mini   V2     ac_008     2     0.85        1245      no_match  Parkinson's Disease
+openai/gpt-4o-mini   V2     ac_008     3     0.85        1133      match     Multiple System Atrophy (MSA)
+openai/gpt-4o-mini   V2     ac_009     1     0.8         1065      match     Coarctation of the aorta
+openai/gpt-4o-mini   V2     ac_009     2     0.85        1047      match     Coarctation of the aorta
+openai/gpt-4o-mini   V2     ac_009     3     0.9         1192      match     Coarctation of the aorta
+openai/gpt-4o-mini   V2     ac_010     1     0.8         1119      no_match  Malignancy (possible recurrence or new cancer)
+openai/gpt-4o-mini   V2     ac_010     2     0.85        1114      no_match  Lymphoma
+openai/gpt-4o-mini   V2     ac_010     3     0.85        968       match     Chronic Lymphocytic Leukemia (CLL)
+openai/gpt-4o-mini   V3     ac_001     1     0.85        47        match     Myasthenia Gravis
+openai/gpt-4o-mini   V3     ac_001     2     0.9         44        match     Myasthenia Gravis
+openai/gpt-4o-mini   V3     ac_001     3     0.95        47        match     Myasthenia Gravis
+openai/gpt-4o-mini   V3     ac_002     1     0.85        78        match     Progressive multifocal leukoencephalopathy (PML)
+openai/gpt-4o-mini   V3     ac_002     2     0.85        78        match     Progressive multifocal leukoencephalopathy (PML)
+openai/gpt-4o-mini   V3     ac_002     3     0.95        71        match     Progressive Multifocal Encephalopathy (PML)
+openai/gpt-4o-mini   V3     ac_003     1     0.75        92        no_match  Intestinal obstruction (potentially volvulus or intussusception)
+openai/gpt-4o-mini   V3     ac_003     2     0.85        43        no_match  Intussusception
+openai/gpt-4o-mini   V3     ac_003     3     0.95        50        match     Hirschsprung disease
+openai/gpt-4o-mini   V3     ac_004     1     0.85        38        match     Lymphoma
+openai/gpt-4o-mini   V3     ac_004     2     0.85        36        match     Lymphoma
+openai/gpt-4o-mini   V3     ac_004     3     0.9         47        no_match  Non-Hodgkin lymphoma
+openai/gpt-4o-mini   V3     ac_005     1     0.75        44        no_match  Pyelonephritis
+openai/gpt-4o-mini   V3     ac_005     2     0.85        44        no_match  Pyelonephritis
+openai/gpt-4o-mini   V3     ac_005     3     0.85        58        match     Acute interstitial nephritis
+openai/gpt-4o-mini   V3     ac_006     1     0.85        47        no_match  Vasovagal syncope
+openai/gpt-4o-mini   V3     ac_006     2     0.85        47        no_match  Vasovagal syncope
+openai/gpt-4o-mini   V3     ac_006     3     0.85        47        no_match  Vasovagal syncope
+openai/gpt-4o-mini   V3     ac_007     1     0.75        49        no_match  Ovarian mass or cyst
+openai/gpt-4o-mini   V3     ac_007     2     0.85        56        no_match  Ovarian tumor with ascites
+openai/gpt-4o-mini   V3     ac_007     3     0.85        88        no_match  Ovarian tumor with associated ascites and pleural effusion
+openai/gpt-4o-mini   V3     ac_008     1     0.85        49        no_match  Parkinson's disease
+openai/gpt-4o-mini   V3     ac_008     2     0.85        47        no_match  Parkinson's Disease
+openai/gpt-4o-mini   V3     ac_008     3     0.85        59        match     Multiple System Atrophy (MSA)
+openai/gpt-4o-mini   V3     ac_009     1     0.85        54        match     Coarctation of the aorta
+openai/gpt-4o-mini   V3     ac_009     2     0.85        54        match     Coarctation of the aorta
+openai/gpt-4o-mini   V3     ac_009     3     0.9         53        match     Coarctation of the aorta
+openai/gpt-4o-mini   V3     ac_010     1     0.75        73        no_match  Malignancy recurrence or new primary cancer
+openai/gpt-4o-mini   V3     ac_010     2     0.85        38        no_match  Lymphoma
+openai/gpt-4o-mini   V3     ac_010     3     0.9         63        match     Chronic Lymphocytic Leukemia (CLL)
+
+========================================================================================================================
+AGGREGATE STATS PER MODEL x VARIANT
+(accuracy = heuristic keyword-overlap match rate
+========================================================================================================================
+model                variant  n     avg_resp_len   avg_confidence   stdev_confidence   accuracy  
+deepseek/deepseek-r1 V1       30    1101.6         0.848            0.085              66.7%     
+deepseek/deepseek-r1 V2       30    1853.7         0.785            0.123              66.7%     
+deepseek/deepseek-r1 V3       30    292.5          0.843            0.099              70.0%     
+openai/gpt-4o-mini   V1       30    911.8          0.792            0.067              53.3%     
+openai/gpt-4o-mini   V2       30    1219.8         0.822            0.060              43.3%     
+openai/gpt-4o-mini   V3       30    54.7           0.853            0.052              50.0%     
+
+========================================================================================================================
+AVERAGE CONFIDENCE PER MODEL x VARIANT, PER TURN
+========================================================================================================================
+model                variant turn_1         turn_2         turn_3         
+deepseek/deepseek-r1 V1      0.805          0.820          0.919          
+deepseek/deepseek-r1 V2      0.720          0.735          0.899          
+deepseek/deepseek-r1 V3      0.790          0.830          0.909          
+openai/gpt-4o-mini   V1      0.740          0.805          0.830          
+openai/gpt-4o-mini   V2      0.785          0.820          0.860          
+openai/gpt-4o-mini   V3      0.810          0.855          0.895          
+
+========================================================================================================================
+ADDITIONAL STATS PER MODEL x VARIANT
+========================================================================================================================
+model                variant  fmt_compl   extra_dx_content   conf|match   conf|no_match  gap      conf_corr  top_conf_share
+deepseek/deepseek-r1 V1       100.0%      6.7%               0.874        0.795          0.080    0.450      40.0%
+deepseek/deepseek-r1 V2       100.0%      6.7%               0.822        0.710          0.112    0.435      20.0%
+deepseek/deepseek-r1 V3       70.0%       6.7%               0.866        0.789          0.077    0.363      30.0%
+openai/gpt-4o-mini   V1       100.0%      0.0%               0.809        0.771          0.038    0.287      43.3%
+openai/gpt-4o-mini   V2       100.0%      10.0%              0.850        0.800          0.050    0.422      40.0%
+openai/gpt-4o-mini   V3       100.0%      3.3%               0.880        0.827          0.053    0.517      63.3%
+
+Notes:
+- fmt_compl: followed the EXACT structural instruction for that variant (not just parseable anywhere in the text).
+- extra_dx_content: MANUALLY counted, PER MODEL, fraction of responses whose diagnosis field contains something beyond a standard clinical label.
+- gap = conf|match - conf|no_match. Positive and larger is better -- means confidence tracks correctness. Near-zero or negative means the confidence score isn't meaningful.
+- conf_corr: correlation between stated confidence and correctness across all records for that (model, variant) pair (NaN if no variance in the small sample)
+- top_conf_share: fraction of responses sharing the single most common confidence value -- high share may indicate degenerate, non-discriminating confidence
+
+
+Final Choice:
+All variants had 100% parser compliance.
+All models and variants grew more confident per turn
+Average response length was highest for V2 and lowest for V3
+V3 was the most confident, and standard deviation was similar
+Accuracy was lowest in V2, and around the same in V1 and V3
+The only model and version that didn't always comply with the format was V3 on reasoning.
+Gap was best on V2 and lowest on V1
+Confidence correlation was best on V3 and lowest on V1
+Overall pick: V3, because:
+High confidence, low response length, average accuracy, good confidence correlation
+V1 had a bad gap and confidence correlation, and V2 had low accuracy & high response length
+Although V2 had the best gap and V3 reasoning didn't always comply with the format,
+V3 has a lot of positives and also won the last trial, so it is our overall choice.
