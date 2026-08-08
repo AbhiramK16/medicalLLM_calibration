@@ -77,11 +77,14 @@ calibration-collapse/
   interface.
 - `src/calibration_collapse/experiments` contains the three
   evidence-presentation pipelines.
+- `src/calibration_collapse/checks` contains the checks to validate that all 3 pipelines take in the same cases
+- `src/calibration_collapse/grading` contains the 3 grading strategies compared
 - `src/calibration_collapse/evaluation` owns confidence parsing, metrics,
   calibration, and the shared logging contract.
 - `src/calibration_collapse/analysis` creates summaries and figures.
 - `results` contains generated outputs and is ignored except for its folders.
 - `paper` contains manuscript material.
+  
 
 ## Local setup
 
